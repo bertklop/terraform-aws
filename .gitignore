@@ -1,3 +1,9 @@
+# bk files
+*.bk
+
+# backend files
+backend.tf 
+
 # Local .terraform directories
 **/.terraform/*
 .terraform.lock.hcl

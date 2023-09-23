@@ -1,0 +1,13 @@
+terraform {
+  backend "s3" {
+    # Replace this with your bucket name!
+    bucket  = var.state-table
+    key     = "global/s3/terraform.tfstate"
+    region  = var.region
+    profile = var.profile
+
+    # Replace this with your DynamoDB table name!
+    dynamodb_table = var.state-table
+    encrypt        = true
+  }
+}
