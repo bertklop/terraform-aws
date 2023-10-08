@@ -8,5 +8,7 @@ step-by-step via branches:
 * step3: backend
 * step4: api gateway with lambda
 * step5: vpc
+* step5: chat examples: api & EC2
+
 
 
